@@ -14,7 +14,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/new', (req, res) => {
-	res.send('<h1>New Changes deployed successfully by Chirag Doctor</h1>');
+	res.send('<h1>New Changes deployed successfully by Chirag Doctor v1.0</h1>');
 });
 
 module.exports = app;
